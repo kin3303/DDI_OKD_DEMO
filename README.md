@@ -1,11 +1,14 @@
 ## DDI_OKD_DEMO
 
-Openshift 에서 nodejs app 배포를 위한 Demo Project
+- Openshift 에서 nodejs app 배포를 위한 Demo Project
 
 
-### Step 1 > Jenkins 설정
+## Step 1. Jenkins 초기화
 
 ```
+
+1. dockerHub 에 로그인하기 위한 Credential 을 Jenkins 에 추가
+
 Credentials
     Add Credentials
         Kind : Username with password
