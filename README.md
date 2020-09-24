@@ -8,9 +8,7 @@
 ```
 
 1. dockerHub 에 로그인하기 위한 Credential 을 Jenkins 에 추가
-
-Credentials
-    Add Credentials
+    Credentials -> Add Credentials
         Kind : Username with password
         Scope : Global
         Username : dockerHub 계정명
@@ -18,18 +16,20 @@ Credentials
         ID : docker-hub
         Description : docker-hub
         
-New Item
-    ItemName : nodejs-pipe
-    ItemType : Pipeline
-    
-Configure
-    Advanced Project Options
-        Pipeline
-            Definition : Pipeline script from SCM
-            SCM : Git
-            Repository URL : https://github.com/kin3303/DDI_OKD_DEMO.git
-            Branches to build : */master
-            Script Path : misc/Jenkinsfile
+2. 프로젝트 추가
+    New Item
+        ItemName : nodejs-pipe
+        ItemType : Pipeline
+
+3. 프로젝트 Configure
+    Configure
+        Advanced Project Options
+            Pipeline
+                Definition : Pipeline script from SCM
+                SCM : Git
+                Repository URL : https://github.com/kin3303/DDI_OKD_DEMO.git
+                Branches to build : */master
+                Script Path : misc/Jenkinsfile
 ```
 
 ### Reference
