@@ -3,7 +3,7 @@
 Openshift 에서 nodejs app 배포를 위한 Demo Project
 
 
-### 사전 설정 필요사항
+### Step 1 > Jenkins 설정
 
 ```
 Credentials
