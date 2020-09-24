@@ -8,7 +8,8 @@
 ```
 
 1. dockerHub 에 로그인하기 위한 Credential 을 Jenkins 에 추가
-    Credentials -> Add Credentials
+    Credentials -> Add Credentials (구버전)
+    Manage Jenkins -> Manage Credentials -> Provider : Jenkins -> Global credentials  -> Add Credentials (최신버전)
         Kind : Username with password
         Scope : Global
         Username : dockerHub 계정명
